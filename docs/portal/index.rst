@@ -1,4 +1,4 @@
-Portal for ArcGIS使用說明書
+Portal for ArcGIS篇
 ==========================
 
 .. toctree::

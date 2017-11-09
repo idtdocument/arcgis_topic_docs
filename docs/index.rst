@@ -14,7 +14,8 @@ ArcGIS產品說明書
 
     agol/index
     portal/index
-    webapps/indexOmniMarkupPreviewer
+    webapps/index
     desktop/index
     pro/index
     database/index
+    install/index
