@@ -5,11 +5,9 @@ ArcGIS產品說明書
 
     這是ArcGIS產品的操作說明，歡迎一起交流指教。
 
-ArcGIS Online篇
-----------------------------
-
 .. toctree::
     :maxdepth: 2
+    :caption: ArcGIS Online篇
     :glob:
 
     agol/index
