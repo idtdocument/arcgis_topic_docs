@@ -7,27 +7,10 @@ ArcGIS產品說明書
 
 .. toctree::
     :maxdepth: 2
-    :caption: ArcGIS Online篇
     :glob:
 
     agol/index
-
-ArcGIS Enterprise篇
----------------------------
-
-.. toctree::
-    :maxdepth: 2
-    :glob:
-
     portal/index
-
-Web應用程式篇
---------------------------
-
-.. toctree::
-    :maxdepth: 2
-    :glob:
-
     webapps/index
     desktop/index
     pro/index
