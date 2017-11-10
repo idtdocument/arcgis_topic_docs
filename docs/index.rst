@@ -25,7 +25,7 @@ Web應用程式篇
 --------------------------
 
 .. toctree::
-    :maxdepth: 3
+    :maxdepth: 2
     :glob:
 
     webapps/index
