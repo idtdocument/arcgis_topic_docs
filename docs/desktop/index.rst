@@ -2,7 +2,7 @@ ArcGIS Desktop篇
 =======================
 
 .. toctree::
-    :maxdepth:
+    :maxdepth: 2
     :glob:
 
     coordinate/*
