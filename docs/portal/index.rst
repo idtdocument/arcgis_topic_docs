@@ -5,4 +5,4 @@ Portal for ArcGIS篇
     :maxdepth: 2
     :glob:
 
-    publish/*
+    Publish/*
