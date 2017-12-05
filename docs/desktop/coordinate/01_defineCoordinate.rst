@@ -1,23 +1,25 @@
 自訂台灣地區常用座標系統的轉換公式
 ==================================
 
-在使用ArcGIS Desktop時，ArcToolbox當中提供使用者自訂座標系統轉換參數的工具："Create Custom Geographic Transformation"。
+-   在使用ArcGIS Desktop時，ArcToolbox當中提供使用者自訂座標系統轉換參數的工具："Create Custom 
+    Geographic Transformation"。
 
     |image0|
 
-透過該工具的使用，台灣地區的使用者可以自訂TWD67與TWD97投影座標系統的轉換參數。而設定完畢之後，定義為TWD67與TWD97投影座標系統的地理資料就可以使用這個設定檔來互轉。
+-   透過該工具的使用，台灣地區的使用者可以自訂TWD67與TWD97投影座標系統的轉換參數。而設定完畢之後，
+    定義為TWD67與TWD97投影座標系統的地理資料就可以使用這個設定檔來互轉。
    
-設定畫面如下：
+-   設定畫面如下：
 
     |image1|
 
-設定好的檔案，預設放在：C: \\ Documents and Settings \\ <user> \\ Application Data \\ ESRI \\ ArcToolbox \\ CustomTransformations 資料夾中，使用者可以自行複製到其他電腦使用。
+-   設定好的檔案，預設放在：C: \\ Documents and Settings \\ <user> \\ Application Data \\ ESRI \\ ArcToolbox \\ CustomTransformations 資料夾中，使用者可以自行複製到其他電腦使用。
 
-其中，關於轉換方法（Method）的選擇，根據Help當中的說明，Coordinate Frame法與台灣地區常用的Bursa-Wolf法在程式引擎當中是一樣的，所以在設定時，可以選擇Coordinate Frame法。
+-   其中，關於轉換方法（Method）的選擇，根據Help當中的說明，Coordinate Frame法與台灣地區常用的Bursa-Wolf法在程式引擎當中是一樣的，所以在設定時，可以選擇Coordinate Frame法。
 
     |image2|
 
-而台灣地區常用的Bursa-Wolf法的參數，在史天元老師等人於測量工程第41卷第3期所發表的"TWD67與TWD97大地基準轉換方法研究"一文中，提到他們計算所得出的七參數Bursa-Wolf基準轉換參數，經過將旋轉量單位徑換算為秒後（因為Create Custom Geographic Transformation工具需要輸入秒），各參數如下：
+-   而台灣地區常用的Bursa-Wolf法的參數，在史天元老師等人於測量工程第41卷第3期所發表的"TWD67與TWD97大地基準轉換方法研究"一文中，提到他們計算所得出的七參數Bursa-Wolf基準轉換參數，經過將旋轉量單位徑換算為秒後（因為Create Custom Geographic Transformation工具需要輸入秒），各參數如下：
 
 +-----------------------------------+------------------------+------------------------------------------+
 |     X Axis Translation (meters)   |     X軸平移量 (公尺)   |     730.160                              |
